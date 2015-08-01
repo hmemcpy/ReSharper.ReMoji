@@ -20,11 +20,9 @@ namespace ReSharper.ReMoji.CodeCompletion
 
         public bool AcceptTyping(char c, ITextControl textControl, IContextBoundSettingsStore boundSettingsStore)
         {
-            if (c == ':')
-                return true;
+            if (c == ':') return true;
 
-            if (char.IsLetterOrDigit(c) ||
-                (c == '_' || c == '+' || c == '-'))
+            if (EmojiCompletionContextProvider.IsEmojiChar(c))
                 return this.MatchText(textControl, 1, text => text[0] == ':');
 
             return false;
@@ -32,13 +30,7 @@ namespace ReSharper.ReMoji.CodeCompletion
 
         public bool ProcessSubsequentTyping(char c, ITextControl textControl)
         {
-            if (char.IsLetterOrDigit(c))
-                return true;
-
-            if (c == '_' || c == '+' || c == '-' || c == ':')
-                return true;
-
-            return false;
+            return EmojiCompletionContextProvider.IsEmojiChar(c);
         }
 
         public bool AcceptsFile(IFile file, ITextControl textControl)
