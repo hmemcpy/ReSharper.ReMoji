@@ -78,6 +78,10 @@
       <HintPath>..\packages\JetBrains.Annotations.9.1.1\lib\net20\JetBrains.Annotations.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="JetBrains.Platform.ProjectModel">
+      <HintPath>..\packages\JetBrains.Platform.Core.Ide.102.0.20150727.93410\DotFiles\JetBrains.Platform.ProjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Microsoft.Deployment.Compression, Version=3.0.0.0, Culture=neutral, PublicKeyToken=ce35f76fcda82bad, processorArchitecture=MSIL">
       <HintPath>..\packages\JetBrains.Platform.Lib.Microsoft.Deployment.Compression.Cab.2.0.20140304.0\lib\Microsoft.Deployment.Compression.dll</HintPath>
       <Private>True</Private>
@@ -159,7 +163,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeCompletion\EmojiCompletionContextProvider.cs" />
     <Compile Include="CodeCompletion\EmojiCompletionProvider.cs" />
+    <Compile Include="CodeCompletion\EmojiAutoCompletionStrategy.cs" />
+    <Compile Include="CodeCompletion\EmojiLookupItem.cs" />
     <Compile Include="Icons\EmojiIconId.cs" />
     <Compile Include="EmojiVS\Downloader.cs" />
     <Compile Include="EmojiVS\Emoji.cs" />
