@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$PackageId$</id>
+    <version>$version$</version>
+    <authors>Igal Tabachnik</authors>
+    <owners>Igal Tabachnik</owners>
+    <title>ReSharper support for EmojiVS extension for Visual Stuido!</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://none.com</licenseUrl>
+    <description>ReSharper support for EmojiVS extension for Visual Stuido!</description>
+    <projectUrl>http://none.com</projectUrl>
+    <iconUrl>http://none.com</iconUrl>
+    <copyright>Copyright &#x00A9; 2015 Igal Tabachnik</copyright>
+    <tags>emoji emojivs emoticons github</tags>
+    <releaseNotes></releaseNotes>
+    <dependencies>
+      <dependency id="$ReSharperDep$" version="$ReSharperVer$" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\output\$configuration$\9.0\ReSharper.ReMoji.dll" target="dotFiles"/>
+    <file src="..\output\$configuration$\9.0\ReSharper.ReMoji.pdb" target="dotFiles"/>
+  </files>
+</package>
