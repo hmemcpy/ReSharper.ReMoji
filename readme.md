@@ -1,7 +1,7 @@
 <div style="float: right"><img src="/logo.png"></div>ReMoji for ReSharper
 ===
 
-This plugin adds ReSharper intellisense support for the [**EmojiVS**](https://github.com/jbevain/EmojiVS/) Visual Studio extension by JB Evian.
+This plugin adds ReSharper intellisense support for the [**EmojiVS**](https://github.com/jbevain/EmojiVS/) Visual Studio extension by JB Evain.
 
 ![](https://raw.githubusercontent.com/jbevain/EmojiVS/master/Images/Preview.png)
 
