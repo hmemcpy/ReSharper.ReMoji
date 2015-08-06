@@ -19,7 +19,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\output\$configuration$\9.0\ReSharper.ReMoji.dll" target="dotFiles"/>
-    <file src="..\output\$configuration$\9.0\ReSharper.ReMoji.pdb" target="dotFiles"/>
+    <file src="..\output\$configuration$\$SDK$\ReSharper.ReMoji.dll" target="dotFiles"/>
+    <file src="..\output\$configuration$\$SDK$\ReSharper.ReMoji.pdb" target="dotFiles"/>
   </files>
 </package>
