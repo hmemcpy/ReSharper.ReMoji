@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.ReMoji", "ReSharper.ReMoji\ReSharper.ReMoji.csproj", "{875685A4-2166-473F-BAA1-B6D62565B7F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.ReMoji.9.1", "ReSharper.ReMoji\ReSharper.ReMoji.9.1.csproj", "{875685A4-2166-473F-BAA1-B6D62565B7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.ReMoji.9.2", "ReSharper.ReMoji\ReSharper.ReMoji.9.2.csproj", "{23C958D5-ED67-4026-90F9-4F13948B1008}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{875685A4-2166-473F-BAA1-B6D62565B7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{875685A4-2166-473F-BAA1-B6D62565B7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{875685A4-2166-473F-BAA1-B6D62565B7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C958D5-ED67-4026-90F9-4F13948B1008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C958D5-ED67-4026-90F9-4F13948B1008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C958D5-ED67-4026-90F9-4F13948B1008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C958D5-ED67-4026-90F9-4F13948B1008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
