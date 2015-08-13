@@ -19,8 +19,8 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TargetFrameworkProfile />
-    <OutputPath>..\..\output\$(Configuration)\9.1</OutputPath>
-    <BaseIntermediateOutputPath>obj\9.1</BaseIntermediateOutputPath>
+    <OutputPath>..\..\output\$(Configuration)\9.x</OutputPath>
+    <BaseIntermediateOutputPath>obj\9.x</BaseIntermediateOutputPath>
     <StartAction>Program</StartAction>
     <StartProgram>$(DevEnvDir)\devenv.exe</StartProgram>
     <StartArguments>/rootsuffix ReSharper /ReSharper.Internal</StartArguments>
@@ -31,14 +31,14 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <DefineConstants>JET_MODE_ASSERT;SDK90;DEBUG;TRACE</DefineConstants>
+    <DefineConstants>JET_MODE_ASSERT;DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <DefineConstants>SDK90;TRACE</DefineConstants>
+    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
