@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using JetBrains.ReSharper.Feature.Services.CodeCompletion.Infrastructure;
 using SimpleJson;
 using Json = SimpleJson.SimpleJson;
 
 namespace Emoji
 {
-    [IntellisensePart]
     class EmojiStore : IEmojiStore
     {
         private readonly string _storeDirectory;

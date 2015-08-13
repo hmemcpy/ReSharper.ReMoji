@@ -16,9 +16,9 @@ namespace ReSharper.ReMoji.CodeCompletion
     {
         private readonly IEnumerable<EmojiLookupItem> lookupItems;
 
-        public EmojiCompletionProvider(IEmojiStore emojiStore)
+        public EmojiCompletionProvider()
         {
-            emojiStore = emojiStore ?? new EmojiStore();
+            var emojiStore = new EmojiStore();
             lookupItems = emojiStore.Emojis().Select(e => new EmojiLookupItem(e));
         }
 
