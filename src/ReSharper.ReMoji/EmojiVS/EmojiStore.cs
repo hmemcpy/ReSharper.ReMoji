@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
+using JetBrains.Application;
 using SimpleJson;
 using Json = SimpleJson.SimpleJson;
 
@@ -83,7 +84,10 @@ namespace Emoji
             return Path.Combine(_storeDirectory, Path.GetFileName(uri.LocalPath));
         }
 
-        private static string StoreDirectory() => Path.Combine(Path.GetDirectoryName(typeof(Emoji).Assembly.Location), "EmojiStore");
+        private static string StoreDirectory()
+        {
+            return Path.Combine(Path.GetTempPath(), "EmojiStore");
+        }
 
         public bool TryGetEmoji(string name, out Emoji emoji)
         {
