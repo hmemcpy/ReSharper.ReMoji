@@ -5,7 +5,7 @@
     <version>$version$</version>
     <authors>Igal Tabachnik</authors>
     <owners>Igal Tabachnik</owners>
-    <title>ReSharper support for EmojiVS extension for Visual Stuido!</title>
+    <title>ReSharper support for EmojiVS extension for Visual Studio!</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://raw.githubusercontent.com/hmemcpy/ReSharper.ReMoji/master/License.txt</licenseUrl>
     <description>This plugin enables support for EmojiVS (https://github.com/jbevain/EmojiVS) extension by JB Evain. Install it from the Visual Studio Gallery first!</description>
